@@ -1,0 +1,88 @@
+/* frontend/styles.css */
+
+/* General page styling */
+body {
+    background-color: #e9eff5; /* Soft, light blue/gray background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Card container styling */
+.agent-card {
+    /* Subtle depth effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08), 0 6px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px; /* Pronounced rounded corners */
+    background-color: white;
+}
+
+/* Header and Typography */
+.text-primary {
+    color: #1a73e8 !important; /* Deep blue accent */
+}
+
+h1 {
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+/* Input Area */
+#userQuestion {
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s;
+    resize: vertical;
+}
+
+#userQuestion:focus {
+    border-color: #1a73e8;
+    box-shadow: 0 0 0 0.25rem rgba(26, 115, 232, 0.25);
+}
+
+/* --- Tabbed Output Styling --- */
+
+/* Tab Content Container */
+.result-box-container {
+    min-height: 150px;
+    background-color: #f8f9fa; /* Light background for the content box */
+    border-radius: 0 0 10px 10px !important; /* Only round bottom corners */
+    padding: 20px !important;
+}
+
+/* Tab Navigation Style */
+.nav-tabs .nav-link {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+/* Final Answer Content */
+.result-box-content {
+    white-space: pre-wrap; /* Preserves line breaks from LLM output */
+    font-family: inherit;
+    font-size: 1rem;
+    color: #343a40;
+}
+
+/* Generated SQL Content (Code styling) */
+#resultSQL {
+    background-color: #e9ecef;
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-x: auto;
+    font-size: 0.85rem; /* Slightly smaller for density */
+}
+
+
+/* Button & Spinner Styling */
+#submitButton {
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.loading-spinner {
+    color: white !important;
+}
