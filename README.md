@@ -24,23 +24,17 @@ An intelligent Text-to-SQL application that converts natural language questions 
 
 ### Main Interface
 ![Main Interface](screenshots/preview1.png)
-*Clean and intuitive interface for natural language database queries*
-
-### Query Processing
-![Query Processing](screenshots/preview2.png)
 *Real-time feedback during query generation and execution*
 
 ### SQL Query View
-![Generated SQL](screenshots/preview3.png)
+![SQL Query View](screenshots/preview2.png)
 *Transparent view of the generated SQL query*
 
-### Results Display
-![Results Display](screenshots/preview4.png)
-*Elegantly formatted query results with smart list rendering*
+### Supabase (Postgresql) Database-1
+![Supabase (Postgresql) Database-1](screenshots/preview3.png)
 
-### API Status
-![API Health](screenshots/preview5.png)
-*Live API connection monitoring and status indicators*
+### Supabase (Postgresql) Database-2
+![Supabase (Postgresql) Database-2](screenshots/preview4.png)
 
 ## 🛠️ Tech Stack
 
